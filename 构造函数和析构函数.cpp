@@ -43,11 +43,11 @@ class Person
 //	cout << "test01\n";
 //}
 //Öµ·µ»Ø
-Person test02()
-{
-	Person p2;
-	return p2;
-}
+//Person test02()
+//{
+//	Person p2;
+//	return p2;
+//}
 int main()
 {
 	//test01();
@@ -56,6 +56,6 @@ int main()
 	//Person p1(1);
 	//Person p2(p1);
 	//Person p1(10);
-	test02();
+	//test02();
 	return 0;
 }
