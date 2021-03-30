@@ -36,12 +36,26 @@ class Person
 //{
 //	Person p;
 //}
+
+//值传递
+//void test01(Person p)
+//{
+//	cout << "test01\n";
+//}
+//值返回
+Person test02()
+{
+	Person p2;
+	return p2;
+}
 int main()
 {
 	//test01();
 	//存放在堆中，由我们自己销毁或程序结束时系统销毁
-	Person p0;
-	Person p1(1);
-	Person p2(p1);
+	//Person p0;
+	//Person p1(1);
+	//Person p2(p1);
+	//Person p1(10);
+	test02();
 	return 0;
 }
