@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//静态成员函数和静态成员变量都是有访问权限的
 class Person
 {
 	public:
