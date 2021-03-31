@@ -18,7 +18,7 @@ public:
 	{
 		this->age += p.age;
 		//this指向对象的指针，*指向对象本体
-		return *this;
+		return *this;	//返回对象本身
 	}
 };
 
