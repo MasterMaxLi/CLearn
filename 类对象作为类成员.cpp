@@ -11,6 +11,10 @@ class Phone
 			m_PName = pName;
 			cout << "Phone的构造函数调用\n";
 		}
+		~Phone()
+		{
+			cout << "Phone的析构函数调用\n";
+		}
 };
 
 class Person
@@ -22,6 +26,12 @@ class Person
 		Person(string name, string pName): m_Name(name), m_Phone(pName)
 		{
 			cout << "Person的构造函数调用\n";
+		}
+		~Person()
+		{
+			{
+				cout << "Person的析构函数调用\n";
+			}
 		}
 };
 
