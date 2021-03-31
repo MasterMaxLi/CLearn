@@ -19,12 +19,15 @@ int Person::m_A = 100;
 void test01()
 {
 	Person p;
+	//通过对象访问
 	cout << p.m_A << endl;
 
 	Person p2;
 	p2.m_A = 200;
 
 	cout << p2.m_A << endl;
+	//通过类名直接访问静态成员变量
+	cout << Person::m_A << endl;
 }
 
 int main()
