@@ -31,6 +31,22 @@ class Person
 		}
 };
 
+class Student
+{
+public:
+	Person p;
+	int id;
+
+	Student()
+	{
+		cout << "Student的构造函数被调用\n";
+	}
+	~Student()
+	{
+		cout << "Student的析构函数被调用\n";
+	}
+};
+
 //创建在栈上，执行完毕后系统自动回收销毁
 //void test01()
 //{
@@ -57,5 +73,13 @@ int main()
 	//Person p2(p1);
 	//Person p1(10);
 	//test02();
+	//Person* p = new Person(19);
+	//手动释放对象指针时会调用析构函数
+	/*delete p;
+	cout << "aaaaaa";*/
+	Student* s = new Student();
+	//Person是Student的对象，当Student被释放时，Person的析构函数也会被调用
+	delete s;
+	
 	return 0;
 }
