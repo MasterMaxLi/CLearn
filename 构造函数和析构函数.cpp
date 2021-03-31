@@ -18,9 +18,9 @@ class Person
 			cout << "Person析构函数调用\n";
 		}
 		//有参构造函数
-		Person(int a)
+		Person(int age)
 		{
-			age = a;
+			this->age = age;
 			cout << "Person(int a)有参构造函数调用\n";
 		}
 		//拷贝构造函数
