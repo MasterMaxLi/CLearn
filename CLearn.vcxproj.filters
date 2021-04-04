@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="继承中同名成员的访问.cpp">
+    <ClCompile Include="继承中同名静态成员的处理.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
