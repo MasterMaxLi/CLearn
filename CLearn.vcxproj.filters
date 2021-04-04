@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="棱形继承.cpp">
+    <ClCompile Include="多态案例.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
