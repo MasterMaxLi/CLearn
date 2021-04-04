@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="继承中同名静态成员的处理.cpp">
+    <ClCompile Include="多继承.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
